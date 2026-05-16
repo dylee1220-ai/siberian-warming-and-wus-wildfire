@@ -1,0 +1,1 @@
+CESM2_anal/omega.JJA.0100.ensmem.gdat filter=lfs diff=lfs merge=lfs -text
