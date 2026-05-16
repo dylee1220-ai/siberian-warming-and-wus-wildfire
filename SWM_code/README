@@ -1,0 +1,10 @@
+
+1. make_binary.ncl: Create 3-D(x,y,z) U,V,T, and 2-D surface pressure (PS) file in Binary format.
+2-1 (SWM run with vorticity forcing). tran_forcing.sh: Setting Vorticity Forcing Location.
+2-2 (SWM run with heat forcing). heat_forcing.sh: Setting Heat Forcing Location.
+3. Run Script: run_tran.sh (vorticity), run_heat.sh (heat)
+4. Output : strm.tran.tmp, strm.heat.tmp
+5. Convert output to nc file: convert_nc.ncl
+
+
+** Diabatic Heating Level can be modifed in heat_forcing.sh 
